@@ -191,7 +191,14 @@ legend {
   padding: 0;
   white-space: normal;
 }
-
+.contact:hover {
+  color: #48beff;
+}
+#contact-button:hover {
+  background-color: #48beff;
+  color: white;
+  transition: 1s ease;
+}
 button,
 input,
 select,
@@ -201,7 +208,103 @@ textarea {
   margin: 0;
   vertical-align: baseline;
 }
+figcaption {
+  align-content: center;
+  text-align: center;
+}
+.row .team {
+  justify-content: center;
+  justify-self: center;
+  display: flex;
+}
+.row {
+  justify-content: center;
+  justify-self: center;
+  display: flex;
+}
+.container {
+  text-align: center;
+}
+.html {
+  width: 95%;
+  background: orangered;
+  -webkit-animation: html 2.5s;
+  -moz-animation: html 2.5s;
+  -o-animation: html 2.5s;
+  animation: html 2.5s;
+}
 
+.css {
+  width: 85%;
+  background: skyblue;
+  -webkit-animation: css 2s;
+  -moz-animation: css 2s;
+  -o-animation: css 2s;
+  animation: css 2s;
+}
+.javascripts {
+  width: 55%;
+  background: gold;
+  -webkit-animation: css 2s;
+  -moz-animation: css 2s;
+  -o-animation: css 2s;
+  animation: css 2s;
+}
+.wrap p {
+  position: absolute;
+  font: 0.8em sans-serif;
+  top: 50%;
+  left: 20px;
+  margin: 0 auto;
+  color: #000;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  letter-spacing: 1px;
+}
+
+.wrap {
+  position: relative;
+  width: 600px;
+  height: 30px;
+  margin: 25px auto;
+  padding: 0;
+  background: #444;
+  border-radius: 5px;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s 0.15s ease;
+}
+
+.bar {
+  height: 30px;
+  border-radius: 5px;
+  transition: 0.25s ease;
+}
+
+.wrap:hover .bar {
+  background: #48beff;
+  cursor: pointer;
+}
+
+.wrap:hover {
+  width: 600px;
+  background: #555;
+}
+.wrap span {
+  display: block;
+  float: right;
+  padding-right: 15px;
+  color: #222;
+  line-height: 30px;
+  -webkit-animation: span 2s 1.7s forwards;
+  -moz-animation: span 2s 1.7s forwards;
+  -o-animation: span 2s 1.7s forwards;
+  animation: span 2s 1.7s forwards;
+  opacity: 0;
+}
 button,
 input {
   line-height: normal;
@@ -1970,7 +2073,14 @@ form input[type="reset"] {
   font-size: 2.5em;
   margin: 0;
 }
-
+.skills {
+  color: white;
+}
+.programming-skills {
+  background: url(./images/frontend-bcgd.jpg);
+  background-size: cover;
+  background-position: center;
+}
 .hero {
   background: url(./images/frontend-bcgd.jpg);
   background-position: center;
@@ -2089,6 +2199,7 @@ form .hero input[type="reset"] {
   font-size: 1.25rem;
   font-weight: normal;
 }
+
 .site-footer a {
   color: #9a9ca1;
 }
